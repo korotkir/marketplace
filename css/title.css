@@ -1,0 +1,37 @@
+.title__category {
+    display: flex;
+    grid-template-rows: 1fr 1fr;
+}
+
+.title__category a {
+    text-decoration: none;
+    color: #005bff;
+    font-size: 14px;
+}
+
+.title__category a:hover {
+    color: #001aff;
+    transition: .5s;
+}
+
+.title__name {
+    display: flex;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.title__name__name-item {
+    font-size: 30px;
+    line-height: 1.27;
+    font-weight: 700;
+    justify-self: start;
+
+}
+
+.title__name__sum-item {
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+    justify-self: end;
+}

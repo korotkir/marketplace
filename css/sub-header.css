@@ -1,0 +1,37 @@
+.sub-header {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.sub-header__geo a {
+    text-decoration: none;
+    color: #001A34;
+}
+
+.sub-header__geo a:hover {
+    transition-delay: .1s;
+    color: #005bff;
+}
+
+.sub-header__info {
+    justify-self: center;
+}
+
+.sub-header__info__item {
+    cursor: pointer;
+    text-decoration: none;
+    color: #808D9A;
+    padding-left: 10px;
+}
+
+.sub-header__info__item:hover {
+    transition-delay: .1s;
+    color: #005bff;
+}
+
+.sub-header__info {
+    justify-self: flex-end;
+}

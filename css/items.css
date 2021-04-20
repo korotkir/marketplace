@@ -1,0 +1,92 @@
+.content {
+    display: grid;
+    grid-template-columns: 200px 1200px;
+}
+
+.content__filter {
+    background-color: #ededed;
+}
+
+.content__products {
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+}
+
+.content__sub-filter {}
+
+.content__items {
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 2fr 7fr 1fr 0.5fr;
+    padding: 12px;
+    border-bottom: 1px solid #ededed;
+}
+
+.item__description {
+    margin-top: 10px;
+}
+
+.item__description__tag {
+    font-size: 14px;
+    color: #ff8970;
+    font-weight: normal;
+    margin-bottom: 3px;
+}
+
+.item__description__title {
+    margin-bottom: 10px;
+}
+
+.item__description__desc li {
+    color: #808D9A;
+}
+
+.item__price {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.item__price__sum {
+    align-self: center;
+    justify-self: start;
+    color: #f91155;
+    font-size: 20px;
+    font-family: 'GTEestiPro Bold';
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.item__price__btn {
+    justify-self: start;
+    align-self: center;
+    font-family: 'GTEestiPro Bold';
+}
+
+.item__price__btn-param {
+    justify-self: start;
+    align-self: center;
+    height: 40px;
+    width: 40px;
+    background-color: #f2f3f5;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.item__liked {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.item__liked__icon {
+    align-self: center;
+    justify-self: end;
+}
+
+
+
